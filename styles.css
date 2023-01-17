@@ -1,2 +1,22 @@
 
 /* Your CSS Code here. */
+.container-fluid{
+	width: 100%;
+	
+}
+
+img {
+	height: 70px;
+}
+
+.first, .second, .third{
+	display:flex;
+}
+
+.second {
+	justify-content: space-evenly;
+}
+
+.third {
+	justify-content: space-around
+}
